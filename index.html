@@ -2,8 +2,19 @@
 <head>
 </head>
  <script src="https://unpkg.com/vue@2.6.10/dist/vue.js"></script>
+ 
 <body>
+
+  <div id="our-app">
+    {{message}}
+  </div>
   <script>
+    new Vue ({
+      el:"#our-app",
+      data:{
+       message:"this is our first code"
+      }
+    })
   </script>
 </body>
 </html>
